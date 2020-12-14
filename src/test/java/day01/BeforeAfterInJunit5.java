@@ -9,6 +9,7 @@ public class BeforeAfterInJunit5 {
     // these are JUNIT5 Specific annotations
     @BeforeAll
     public static void setUp(){
+        System.out.println("omr");
         System.out.println("This run before All");
     }
     //same idea as @beforeMethod you learned previously
